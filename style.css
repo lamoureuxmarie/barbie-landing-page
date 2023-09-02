@@ -11,8 +11,10 @@ nav {
   background-color: #F300A2;
   color: #FFECF5;
   width: 100vw;
-  padding: 20px;
+  padding: 10px 20px;
   position: fixed;
+  font-family:'Bartex';
+  font-size: 42px;
 }
 
 h1 {
