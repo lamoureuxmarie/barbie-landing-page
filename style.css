@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+  font-family: sans-serif;
+  width: 100%;
+  z-index: 3;
+}
+
+nav {
+  background-color: #F300A2;
+  color: #FFECF5;
+  width: 100vw;
+  padding: 20px;
+  position: fixed;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 50px;
+}
+
+.star {
+  font-size: 350px;
+  position: fixed;
+  bottom: -60px;
+  right: 0;
+  color: #FFECF5;
+}
+
+.video-container{
+  margin: 0;
+  z-index: -3;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background:linear-gradient(to right, #e0218a,#ffe9f1f4);
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+}
