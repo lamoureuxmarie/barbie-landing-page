@@ -5,12 +5,22 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+li {
+  list-style: none;
+  margin-top: 8px;
+}
+
 .barbie-font {
   font-family:'Bartex';
 }
 
 .pink-bg {
   background-color: #F300A2;
+}
+
+.blue-bg {
+  /* background-color: #27aafb; */
+  background-color: #A0E0FE;
 }
 
 nav {
@@ -153,15 +163,38 @@ h1 > span {
   padding: 30px 50px;
 }
 
-.footer {
-  background-color: #FFECF5;
-}
-
-/* .allan {
-  width: 90px;
-  height: 90px;
+.allan {
+  z-index: 3;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background-position: center;
   background-size: cover;
   background-image: url('https://img.huffingtonpost.com/asset/64be80ef26000067009deecf.jpg?cache=tCnDQMikwL&ops=scalefit_720_noupscale');
-} */
+  box-shadow: 1px 1px 20px #FFECF5;
+  opacity: 0.95;
+  /* position: absolute; */
+}
+
+#allanContainer {
+  position: absolute;
+  bottom: -1240px;
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  transition: display 0.5s ease-in-out;
+}
+
+.blue-button {
+  background-color: #27aafb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.blue-button:hover {
+  background-color: #018ce2;
+  color: #fff;
+  cursor: pointer;
+}
