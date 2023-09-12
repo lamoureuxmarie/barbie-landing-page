@@ -163,8 +163,8 @@ h1 > span {
   border-radius: 50%;
   background-position: center;
   background-size: cover;
-  background-image: url('https://img.huffingtonpost.com/asset/64be80ef26000067009deecf.jpg?cache=tCnDQMikwL&ops=scalefit_720_noupscale');
-  box-shadow: 1px 1px 20px #FFECF5;
+  background-image: url('assets/allan.png');
+  box-shadow: 1px 1px 25px #27aafb;
   opacity: 0.95;
   /* position: absolute; */
 }
@@ -227,7 +227,7 @@ h1 > span {
   }
 
   #allanContainer {
-    bottom: -2700px;
+    bottom: -3200px;
   }
 
 }
